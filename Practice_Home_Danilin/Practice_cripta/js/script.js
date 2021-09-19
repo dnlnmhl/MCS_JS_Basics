@@ -1,4 +1,4 @@
-let crypto = [{
+const crypto = [{
     name: "Bitcoin",
     price: 1388.37
 }, {
@@ -50,14 +50,3 @@ colorBlockLitecoin.style.width = (crypto[2].price) / 30 + 'em';
 
 
 
-
-
-
-
-/*for (key in crypto){
-    document.write(crypto[key].name);
-    добавить имя в див
-    document.write(crypto[key].price);
-    добавить прайс в див
-
-}*/
